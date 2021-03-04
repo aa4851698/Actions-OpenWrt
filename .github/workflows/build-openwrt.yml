@@ -33,6 +33,9 @@ env:
   UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
 
+  watch:
+    types: [started]
+
 jobs:
   build:
     runs-on: ubuntu-18.04
