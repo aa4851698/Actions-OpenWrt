@@ -15,4 +15,6 @@
 
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git 5gmode https://github.com/Siriling/5G-Modem-Support' >>feeds.conf.default
+echo 'src-git smpackage https://github.com/kenzok8/small-packaget' >>feeds.conf.default
+
