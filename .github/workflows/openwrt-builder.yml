@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/6ang996/lede.git
+  REPO_URL: https://github.com/6ang996/lede
   REPO_CHECKOUT: update_rk356x-xgp_support
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: xgp.config
